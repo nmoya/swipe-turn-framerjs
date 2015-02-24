@@ -48,8 +48,7 @@ close1.visible = close2.visible = close3.visible = false
 
 
 # We need a super layer big enough to hold all the cards
-cardContainer                   = new Layer({width: (screenWidth*3),
-													 height: screenHeight})
+cardContainer                   = new Layer({width: (screenWidth*3), height: screenHeight})
 cardContainer.y                 = 0
 cardContainer.backgroundColor   = "transparent"
 cardContainer.draggable.enabled = true
